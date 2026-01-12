@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #ccc;
+}
+.h1 {
+    background-color: rgb(30, 56, 74);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.b {
+    margin-right: auto ;
+    margin-left: auto;
+    width: 800px;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 40px;
+    margin-top: 20px;
+    height: 500px;
+}
+form {
+    height: 95%;
+}
+form input[type="text"],
+form input[type="email"] ,
+form select,
+form textarea
+
+{    width: 90%;
+    margin-bottom: 30px;
+    padding: 10px;
+
+
+
+}
+form input[type="submit"]{
+    background-color: rgb(0,153, 0);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+form select{
+    background-color: rgb(220, 220, 220);
+}
+
+form textarea , #msg{
+      margin-top: 20px ;
+}
+.link {
+    text-align: center;
+    width: 100%;
+}
